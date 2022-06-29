@@ -2,8 +2,8 @@
 title: Creating a webite to blog from 
 author: TomWhi
 date: 2022-06-29
-categories: [Blogging]
-tags: [thoughts]
+categories: [Website]
+tags: [website]
 ---
 
 I saw a youtube video from TechnoTim that showed the power of a Jekyll website hosted from Github pages and I wanted some of that action. 
