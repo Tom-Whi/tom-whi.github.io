@@ -1,7 +1,7 @@
 ---
 title: Experience
-icon: fas fa-info-circle
-order: 5
+icon: fa-solid fa-briefcase
+order: 1
 ---
 
 This is the experience page
