@@ -1,6 +1,6 @@
 ---
 title: Experience
-icon: fas fa-computer
+icon: fas fa-camera
 order: 1
 ---
 
