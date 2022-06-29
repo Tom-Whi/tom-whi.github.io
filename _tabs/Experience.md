@@ -1,6 +1,6 @@
 ---
 title: Experience
-icon: fa-solid fa-briefcase
+icon: fa-solid fa-computer
 order: 1
 ---
 

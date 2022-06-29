@@ -6,9 +6,9 @@ categories: [Blogging]
 tags: [thoughts]
 ---
 
-# Creating a webite to blog from 
-
 I saw a youtube video from TechnoTim that showed the power of a Jekyll website hosted from Github pages and I wanted some of that action. 
+
+<https://docs.technotim.live/posts/jekyll-docs-site/>
 
 So I've been through the setup which took the best part of a morning to complete because he was missing a few bits from his guide and we're finally here. 
 
