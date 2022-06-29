@@ -1,6 +1,6 @@
 ---
 title: Experience
-icon: fa-solid fa-computer
+icon: fas fa-computer
 order: 1
 ---
 
