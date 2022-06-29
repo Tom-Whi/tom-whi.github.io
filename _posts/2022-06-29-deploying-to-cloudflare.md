@@ -22,11 +22,11 @@ _Cloudflare Hook Screenshot_
 
 Then finally I went into Github and created a webhook under the repo when the page_build action happens. 
 
-![github-hook](/assets/images/2022-06-29%2020_01_09-Webhooks){: .shadow }
+![github-hook](/assets/images/2022-06-29%2020_01_09-Webhooks.png){: .shadow }
 _Github Hook Screenshot_
 
 It now appears my website is also available on Cloudflare's network
 
 <https://tom-whi-github-io.pages.dev/>
 
-Probably totally pointless.  But it's good to know! 
+It's totally pointless.  But it's good to know! 
