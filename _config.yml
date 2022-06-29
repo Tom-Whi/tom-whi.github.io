@@ -14,39 +14,39 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/London
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Tom Whiteley                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: A dumping ground for my thoughts   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  I needed somewhere to put all my musings and ramblings.  This is the place for that! 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://tom-whi.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: Tom-Whi             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: tom-whi            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Tom Whiteley
+  email: chirpy@tomwhiteley.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/tom-whi      # change to your twitter homepage
+    - https://github.com/tom_whi       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+      - https://www.linkedin.com/in/TomWhiteley
 
 google_site_verification:               # fill in to your verification string
 
