@@ -35,7 +35,7 @@ github:
   username: Tom-Whi             # change to your github username
 
 twitter:
-  username: tom-whi            # change to your twitter username
+  username: tom_whi            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -85,7 +85,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media-exp2.licdn.com/dms/image/C4D03AQGgZNE29GT-bw/profile-displayphoto-shrink_800_800/0/1641626494258?e=1661990400&v=beta&t=oVBF1G5YORoH8pPou7VHi5L5pf1mOMX0MnF6akZV7UI
 
 # boolean type, the global switch for ToC in posts.
 toc: true
