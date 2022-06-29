@@ -1,12 +1,14 @@
 ---
 title: First Post
 author: TomWhi
-date: 2022-06-29
+date: 2022-01-01
 categories: [Blogging]
 tags: []
 ---
 
 # Examples to use in future posts! 
+
+Stolen without due care or attention from the guys at Chripy to help remind me about all the fun markdown code I can add into my future blogs. 
 
 
 ## Titles
