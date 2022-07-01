@@ -11,6 +11,10 @@
   icon: 'fab fa-linkedin'
   url:  'https://linkedin.com/in/tomwhiteley'
 -
+  type: microsoft
+  icon: 'fab fa-microsoft'
+  url:  'https://docs.microsoft.com/en-gb/users/tomwhi'
+-
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
