@@ -16,6 +16,8 @@ I've tried to simplify the steps from the MS Guide and and included steps for de
 
 ## Steps
 
+You will need a Cloud Shell.  If you don't have one already then set one up using [this guide](https://blog.tomwhiteley.com/posts/creating-azure-cloudshell/)
+
 Create a folder in your CloudShell called bicep.  Move into that folder. 
 
 Create a new file in that folder called vm.bicep
