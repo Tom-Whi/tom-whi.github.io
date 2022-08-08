@@ -30,7 +30,7 @@ Open the file in VS Code within the CloudShell
 
 Copy the following code into the bicep file 
 
-```bicep
+```console
 	@description('Username for the Virtual Machine.')
 	param adminUsername string
 	
@@ -288,7 +288,7 @@ Look at the file's properties - it's going to create
 	
 - There are variables - these cannot be overridden from outside of the Bicep file, they can be changed to Parameters though if you want to pass them in like that. 
 	
-- It's then going to create the reources
+- It's then going to create the resources
 	
 	- Storage account for Boot diags 
 	- PIP
@@ -302,13 +302,13 @@ Look at the file's properties - it's going to create
 
 Deploy the  a resource group through the CloudShell
 
-```PowerShell
+```powershell
     New-AzResourceGroup -Name exampleRG -Location "East US"
 ```
 
 Deploy the Bicep file into that Resource Group.  Notice the parameters.  I have a policy against deploying D series VMs in my Azure so I need to override to deploy a B series one, this parameter matches the ones in the file above. 
 
-```PowerShell 
+```powershell 
 	New-AzResourceGroupDeployment -ResourceGroupName exampleRG -TemplateFile ./vm.bicep -adminUsername "tom" -vmSize "Standard_B2s" 
 ```
 
