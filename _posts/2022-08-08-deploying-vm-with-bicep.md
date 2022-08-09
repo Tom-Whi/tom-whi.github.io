@@ -308,6 +308,18 @@ Look at the file's properties - it's going to create
 		
 - Finally there is then an output in the Bicep file which outputs the generated DNS record for the VM. 
 	
+Make sure you're happy with the AZ Context of the shell (which sub it'll deploy into if you have more than one)
+
+```powershell
+#Get current context
+Get-AzContext | Select-Object -Property Name, Subscription, Tenant | Format-List
+
+#Get the subscriptions in your account 
+Get-AzSubscription | Select-Object -Property Id, Name, TenantId | Format-List
+
+#Set the subscription if you want to change it (enter a valid Sub ID)
+Set-AzContext -SubscriptionId 22222222-2222-4000-22222222222222222
+```
 
 Deploy the  a resource group through the CloudShell
 
