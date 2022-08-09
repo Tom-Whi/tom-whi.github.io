@@ -10,7 +10,7 @@ tags: [devops,bicep,azure,cloudshell]
 
 I wanted to document an easy example to show how to use Bicep and deploy something simple. 
 
-I've tried to simplify the steps from the MS Guide and and included steps for deploying using the Cloud Shell.  Of course this is possible via PowerShell on a local machine but avoids those additional steps to focus on Bicep and the output it generates. 
+I've tried to simplify the steps from the MS Guide and included steps for deploying using the Cloud Shell.  Of course this is possible via PowerShell on a local machine but avoids those additional steps to focus on Bicep and the output it generates. 
 
 
 
