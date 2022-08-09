@@ -20,6 +20,11 @@ You will need a Cloud Shell.  If you don't have one already then set one up usin
 
 Create a folder in your CloudShell called bicep.  Move into that folder. 
 
+```powershell
+mkdir bicep
+cd bicep
+```
+
 Create a new file in that folder called vm.bicep
 
 ```powershell
