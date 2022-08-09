@@ -1,0 +1,37 @@
+---
+title: Job Rotation, Day 15 (out of 30)
+author: TomWhi
+date: 2010-08-21
+categories: [Blogging,2010 Job Rotation]
+tags: [Job Rotation]
+---
+
+Well... I am half way through my job rotation in Tornio, Finland!! The last few weeks seemed to have past pretty quickly, but this week is the quickest week I have had so far… There has been plenty of stuff to do and talk about this week at work, so for the last few days I have not posted any updates because I haven’t had the time…
+
+
+I have been working with SCCM a lot again this week trying to make sure that it is working well for the Tornio guys and gals, and trying to push forward creating a good tool for the company. I met with some guys from the Kemi mine who develop their business information system… Like a lot of customised software it is not the easiest thing to deploy, but I think we will get there with a bit more work and cooperation. I have also been working with the remote control part of SCCM which is really important to make us more efficient; I have now worked out how it works, but I need to write about it to explain to others, then we need to discuss the best way of using it… Exciting :-)
+
+On Wednesday, I get the sauna and swimming pool in the apartment for an hour. My slot is 7.30pm to 8.30pm. After Raimo showed me around it last week, I felt confident enough to go and give it a go… I needed the relaxation after a lot of thinking and talking all week. I took a Swedish Koppaburg strawberry cider with me and made my way down with my towels and body wash. Had a nice 30 minute stint and tried to get it to a good heat, but had to wimp out after I put too much water onto the stove and it got too hot… Went and had a cool down in the swimming pool which was really cold, but it was good to get back into the sauna again. An hour passed quickly, so I had to shower off and leave it for the next person who should be down at 8.30pm.
+
+  
+(Swimming Pool)
+
+
+(Sauna)
+
+On Friday, I was invited to a retirement (eläkkeelle) party for the very nice Mr Jorma Kitunen. He has worked for the company for an impressive 40 years, mainly working on the hosting team with the mainframe. The 12 people who were going to the party left the Works at 4.00pm to pick up the guest of honour from his home and made our way to Pohjolan Pirtti; which is a retreat on the Tornio River. I had been there before on the INTRO course 2 years ago. It has 3 buildings; one restaurant area with a lovely central open fire place, seating for about 120 people and loads of wood to make it feel very warm and homely. The next building has 2 saunas and a hot tub, this is where we were last time on INTRO, and this is where the ladies had their sauna. The next building, closest to the river and which was not there last time I was there, had a sauna, hot tub, and another eating area for about 50 people. One of the crew of the place brought some white fish which had been caught the same day and smoked, not being a fan of fish I left it, but everyone else seemed to enjoy it. We all got into the sauna, it was a tight fit to get all of us in it, then they started throwing water onto the hot stove to crank up the heat… My practise attempt was like a refrigerator compared to how hot hese guys liked it… They told me about a competition which happened about 2 weeks ago where 1 guy died and one guy was still in a coma… Luckily, we weren’t there to have a competition! I had to tap out eventually and left the pro’s to it…
+
+
+(Sauna boat which you can rent)
+
+
+(Hot tub, with Sweden in the backgroud)
+
+Ilpo and I went to the hot tub to cool down a bit, and he was telling me about that almost all Finnish people have a sauna in their house, and he and his wife fire theirs up about 5 or 6 times a week… So I didn’t feel so bad having to tap out so early. The other guys got into the hot tub and I saw Jorma go into the Tornio river… I couldn’t pass that opportunity, so I joined him. It was bloody freezing… very good though after still being so warm after the sauna, I think the few bottles of beer and “long gin drinks” I had drank also helped... At around 6.30pm we all got dressed and made our away up to the top building for speeches and present handing out… It was all in Finnish (because I had asked them not to do any of it in English on my behalf, and Ilpo/Ramio translated the good bits for me. Turns out Jorma started off at Espoo/Helsinki in 1969 and they used to have to fly reports up to Tornio from the mainframe because there was no such thing as networks. I think we should do the same sort of thing today, it’d be quicker than using the network!
+
+
+We then were introduced to some crazy hippy lady, Ilpo asked her if she was some sort of comedian, and her response was that “we were going to be the comedians”, I had no idea what that meant, but it sounded exciting… Turns out the crazy hippy lady was a Laughter Yoga Instructor, I had seen/heard about this type of thing before, and was looking forward to trying it out. She mainly talked in Finnish and I got the translations for the bits I needed to know, we then randomly started laughing… Some people took it seriously, which I guess they meant laughed the hardest, and some just played along… I took it seriously and laughed my head off. We did different types of laughing, and there was a lady there who was crying with laughter, which just spurred me on and also made my cry too. We then had to stick our tongue under our front lip and talk like that, to make it harder, she got us to speak in English; which was good for me. We had to say our name, make and model of car, car registration, and if it had any characteristics, it was difficult, but we all had a great laugh. It lasted for about an hour I think, so my cheeks were killing having to smile so much.
+
+The food was brought out; reindeer, mash potato and a root veg I can’t remember topped off with lovely gravy. I felt bad, because I am going to Rovaniemi (within the article circle) next week with Ilpo and his son to see Santa, and I have to explain to him that I had just eaten his front runner… Rudolf. But he was damn tasty, so I don’t feel too bad! I even got second helpings. They then brought out a weird but nice desert; a creamy thing in a martini glass, topped with North Finnish berries which were yellow/orange, but the thing that made it weird was that it had halloumi cheese in it. It was really tasty though, I would have had seconds of that too if I wasn’t so stuffed.
+
+We had plenty to drink that night, and there was still some left over. I had a great time, it was just like we’d celebrate in the UK, everyone had a good time and had a good laugh. The minibus came for us at 10.30pm and took us back to the Tornio City hotel, Raimo and I left everyone to carry on in the hotel bar, we walked to our apartment and went our separate ways… I had to down a few pints of water to make sure I didn’t wake up with a cracking headache this morning (which is why it’s taken me all day to write this blog entry), I don’t think I drank enough because I have managed to sleep most of the day… I still need to go to the supermarket to get some food before I starve… I was a fantastic way to end a week, and really good to see how to thank someone for their great commitment to the company, very well planned, and executed perfectly party; that is Finnish efficiency.
