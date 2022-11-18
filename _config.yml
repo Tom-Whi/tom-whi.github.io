@@ -19,7 +19,7 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Tom Whiteley                          # the main title
+title: Tom Whiteley                          # the main title #
 
 tagline: A dumping ground for my thoughts   # it will display as the sub-title
 
