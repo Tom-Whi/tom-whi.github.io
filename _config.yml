@@ -23,7 +23,7 @@ timezone: Europe/London
 
 title: Tom Whiteley                          # the main title #
 
-tagline: A dumping ground for my thoughts.   # it will display as the sub-title
+tagline: A dumping ground for my thoughts...   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   I needed somewhere to put all my musings and ramblings.  This is the place for that! 
