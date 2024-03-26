@@ -25,4 +25,4 @@ If any of you want to drive over to see me from the UK, here is the route ;-)
 
 
 View Larger Map
-<http://maps.google.co.uk/maps?f=d&source=embed&saddr=Sheffield+S91TZ,+UK&daddr=Tornio,+Finland&hl=en&geocode=FbfPLgMd9qHq_ykHs9UO6nd5SDEmQfBghzN2VQ%3BFSDD7AMdaXNwASlhR-trZTjVRTFILlSdC2EqlA&mra=ls&sll=65.832592,24.072418&sspn=0.404243,1.229095&ie=UTF8&ll=58.416625,11.36961&spn=15.00241,25.55424&t=h>
+<https://maps.google.co.uk/maps?f=d&source=embed&saddr=Sheffield+S91TZ,+UK&daddr=Tornio,+Finland&hl=en&geocode=FbfPLgMd9qHq_ykHs9UO6nd5SDEmQfBghzN2VQ%3BFSDD7AMdaXNwASlhR-trZTjVRTFILlSdC2EqlA&mra=ls&sll=65.832592,24.072418&sspn=0.404243,1.229095&ie=UTF8&ll=58.416625,11.36961&spn=15.00241,25.55424&t=h>
