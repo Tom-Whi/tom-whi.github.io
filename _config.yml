@@ -19,7 +19,7 @@ title: Tom Whiteley's Blog # the main title
 tagline: I needed somewhere to put all my musings and ramblings.  This is the place for that! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-   Tom Whiteley's blog, focusing on his life as an IT Consultant, and personal life. 
+  Tom Whiteley's blog, focusing on his life as an IT Consultant, and personal life.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -61,6 +61,12 @@ analytics:
     id: G-RK0M7SDF6B # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
 
 # Pageviews settings
 pageviews:
@@ -79,13 +85,12 @@ pageviews:
 #
 theme_mode: dark # [light | dark]
 
-# The CDN endpoint for images.
+# The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 
-#img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/images/TomWhiteley.jpeg"
