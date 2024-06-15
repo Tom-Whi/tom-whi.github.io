@@ -15,7 +15,9 @@ NODE_SPEC="package.json"
 CHANGELOG="docs/CHANGELOG.md"
 CONFIG="_config.yml"
 
+CSS_DIST="_sass/dist"
 JS_DIST="assets/js/dist"
+PWA_DIST="_app"
 
 FILES=(
   "$GEM_SPEC"
@@ -36,7 +38,7 @@ help() {
   echo "  2. Merge the release branch into the default branch"
   echo
   echo "Usage:"
-  echo "  bash ./tools/release [options]"
+  echo "  bash $0 [options]"
   echo
   echo "Options:"
   echo "  --prepare           Preparation for release"
@@ -55,11 +57,13 @@ _check_cli() {
 }
 
 _check_git() {
-  # ensure that changes have been committed
-  if [[ -n $(git status . -s) ]]; then
-    echo "> Abort: Commit the staged files first, and then run this tool again."
-    exit 1
-  fi
+  $opt_pre || (
+    # ensure that changes have been committed
+    if [[ -n $(git status . -s) ]]; then
+      echo "> Abort: Commit the staged files first, and then run this tool again."
+      exit 1
+    fi
+  )
 
   $opt_pkg || (
     if [[ "$(git branch --show-current)" != "$RELEASE_BRANCH" ]]; then
@@ -79,17 +83,12 @@ _check_src() {
   done
 }
 
-_check_node_packages() {
-  if [[ ! -d node_modules || "$(du node_modules | awk '{print $1}')" == "0" ]]; then
-    npm i
-  fi
-}
-
-check() {
+init() {
   _check_cli
   _check_git
   _check_src
-  _check_node_packages
+  echo -e "> npm install\n"
+  npm i
 }
 
 ## Bump new version to gem-spec file
@@ -113,28 +112,20 @@ prepare() {
 
 ## Build a Gem package
 build_gem() {
-  if $opt_pkg; then
-    BACKUP_PATH="$(mktemp -d)"
-    cp "$JS_DIST"/* "$BACKUP_PATH"
-  fi
-
   # Remove unnecessary theme settings
-  sed -i "s/^cdn:.*/cdn:/;s/^avatar:.*/avatar:/" $CONFIG
+  sed -i -E "s/(^timezone:).*/\1/;s/(^cdn:).*/\1/;s/(^avatar:).*/\1/" $CONFIG
   rm -f ./*.gem
 
   npm run build
-  git add "$JS_DIST" -f # add JS distribution files to gem
+  # add CSS/JS distribution files to gem package
+  git add "$CSS_DIST" "$JS_DIST" "$PWA_DIST" -f
+
+  echo -e "\n> gem build $GEM_SPEC\n"
   gem build "$GEM_SPEC"
 
-  # resume the settings
+  echo -e "\n> Resume file changes ...\n"
   git reset
   git checkout .
-
-  if $opt_pkg; then
-    # restore the dist files for future development
-    mkdir -p "$JS_DIST" && cp "$BACKUP_PATH"/* "$JS_DIST"
-    rm -rf "$BACKUP_PATH"
-  fi
 }
 
 # Push the gem to RubyGems.org (using $GEM_HOST_API_KEY)
@@ -157,7 +148,7 @@ merge() {
 }
 
 main() {
-  check
+  init
 
   if $opt_pre; then
     prepare
